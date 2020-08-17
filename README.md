@@ -1,14 +1,12 @@
 ## Pokemon Database
 
-The name of your project.
-
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+Search and gather specific information about Pokemon from the Sinnoh Region.
 
 ## API and Data Sample
 
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
+Using https://pokeapi.co/ as my source for relevant information.
 
 ## Wireframes
 
@@ -23,7 +21,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 - Find and use external api 
 - Render data on page 
-- Allow user to choose favorites 
+- Allow user to choose specfic Pokemon 
 
 #### PostMVP  
 *These are examples only. Replace with your own Post-MVP features.*
