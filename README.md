@@ -46,6 +46,8 @@ Using https://pokeapi.co/ as my source for relevant information.
 
 ## Priority Matrix
 
+Web:
+
 <img src="Priority-matrix.png">
 
 Mobile:
