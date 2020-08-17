@@ -8,6 +8,17 @@ Search and gather specific information about Pokemon from the Sinnoh Region.
 
 Using https://pokeapi.co/ as my source for relevant information.
 
+const getData = () => {
+        P.getPokemonByName("butterfree")
+        .then(function(response) {
+          console.log(response)
+        })
+    }
+    
+    getData()
+
+    ^^ Shows that I can get the information needed when I search for Butterfree.
+
 ## Wireframes
 
 <img src="wireframe.png">
@@ -39,7 +50,7 @@ Using https://pokeapi.co/ as my source for relevant information.
 
 ## Priority Matrix
 
-
+<img src="Priority-matrix.png">
 
 ## Timeframes
 
@@ -48,7 +59,8 @@ Using https://pokeapi.co/ as my source for relevant information.
 | Adding Form | H | 3hrs| 3hrs | 3hrs |
 | Working with API | H | 3hrs| 4hrs | hrs |
 | Styling | M | 2hrs | hrs | hrs |
-| Total | H | 8hrs| 8hrs | hrs |
+| Adding images for each Pokemon | M | 3hrs | hrs | hrs|
+| Total | H | 8hrs| hrs | hrs |
 
 ## Code Snippet
 
