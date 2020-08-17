@@ -16,7 +16,13 @@ Using https://pokeapi.co/ as my source for relevant information.
 
 ## Wireframes
 
+Web:
+
 <img src="wireframe.png">
+
+Mobile:
+
+<img src="pd-mobile.png">
 
 #### MVP 
 
@@ -46,13 +52,7 @@ Using https://pokeapi.co/ as my source for relevant information.
 
 ## Priority Matrix
 
-Web:
-
 <img src="Priority-matrix.png">
-
-Mobile:
-
-<img src="pd-mobile.png">
 
 ## Timeframes
 
