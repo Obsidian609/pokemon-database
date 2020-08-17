@@ -8,16 +8,11 @@ Search and gather specific information about Pokemon from the Sinnoh Region.
 
 Using https://pokeapi.co/ as my source for relevant information.
 
-    const getData = () => {
-        P.getPokemonByName("butterfree")
-        .then(function(response) {
-          console.log(response)
-        })
-    }
-    
-    getData()
-
-Shows that I can get the information needed when I search for Butterfree.
+    "abilities": [
+        {
+            "ability": {
+                "name": "blaze",
+                "url": "https://pokeapi.co/api/v2/ability/66/"
 
 ## Wireframes
 
