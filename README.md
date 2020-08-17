@@ -52,11 +52,14 @@ Using https://pokeapi.co/ as my source for relevant information.
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3hrs | 3hrs |
-| Working with API | H | 3hrs| 4hrs | hrs |
+| Adding Form | H | 4hrs| hrs | hrs |
+| Working with API | H | 4hrs| hrs | hrs |
+| Creating homepage | M | 4hrs | hrs | hrs |
+| Adding each Pokemon | H | 8hrs | hrs | hrs |
+| Adding images for each Pokemon | M | 8hrs | hrs | hrs|
+| Adding animation | L | 8hrs | hrs | hrs |
 | Styling | M | 2hrs | hrs | hrs |
-| Adding images for each Pokemon | M | 3hrs | hrs | hrs|
-| Total | H | 11hrs| hrs | hrs |
+| Total | H | 38hrs| hrs | hrs |
 
 ## Code Snippet
 
