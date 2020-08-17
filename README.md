@@ -16,7 +16,9 @@ Using https://pokeapi.co/ as my source for relevant information.
 
 - Find and use external api 
 - Render data on page 
-- Allow user to choose specfic Pokemon 
+- Allow user to choose specfic Pokemon
+- Add functiong buttons/links
+- Add images
 
 #### PostMVP
 
@@ -28,8 +30,8 @@ Using https://pokeapi.co/ as my source for relevant information.
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|August 14-16| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|August 17| Project Approval | Incomplete
+|August 14-16| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
+|August 17| Project Approval | Complete
 |August 18| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |August 19| Initial Clickable Model  | Incomplete
 |August 20| MVP | Incomplete
@@ -43,9 +45,10 @@ Using https://pokeapi.co/ as my source for relevant information.
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Adding Form | H | 3hrs| 3hrs | 3hrs |
+| Working with API | H | 3hrs| 4hrs | hrs |
+| Styling | M | 2hrs | hrs | hrs |
+| Total | H | 8hrs| 8hrs | hrs |
 
 ## Code Snippet
 
