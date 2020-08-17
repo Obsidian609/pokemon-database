@@ -48,6 +48,10 @@ Using https://pokeapi.co/ as my source for relevant information.
 
 <img src="Priority-matrix.png">
 
+Mobile:
+
+<img src="pd-mobile.png">
+
 ## Timeframes
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
