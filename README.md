@@ -9,7 +9,7 @@ Search and gather specific information about Pokemon from the Sinnoh Region.
 Using https://pokeapi.co/ as my source for relevant information.
 
 ## Wireframes
-
+https://imgur.com/a/zeEwSqE
 Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
 
 ### MVP/PostMVP
