@@ -60,7 +60,7 @@ const getData = () => {
 | Working with API | H | 3hrs| 4hrs | hrs |
 | Styling | M | 2hrs | hrs | hrs |
 | Adding images for each Pokemon | M | 3hrs | hrs | hrs|
-| Total | H | 8hrs| hrs | hrs |
+| Total | H | 11hrs| hrs | hrs |
 
 ## Code Snippet
 
