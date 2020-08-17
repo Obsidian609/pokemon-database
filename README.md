@@ -25,10 +25,11 @@ Using https://pokeapi.co/ as my source for relevant information.
 - Allow user to choose specfic Pokemon
 - Add functiong buttons/links
 - Add images
+- Add styling
 
 #### PostMVP
 
-- Add styling
+- Add additional styling (i.e., animations)
 - Add randomize pokemon button/link
 - Add Pokemon from a different region
 
