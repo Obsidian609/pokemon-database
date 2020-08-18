@@ -1,12 +1,11 @@
-const P = new Pokedex.Pokedex();
+const Pokedex = require('pokeapi-js-wrapper');
 
-const getData = () => {
-        P.getPokemonByName("butterfree")
-        .then(function(response) {
-          console.log(response)
-        //   console.log(response.sprites.other) to get to imgs
-    
-        })
-    }
-    
-    getData()
+const P = new Pokedex.Pokedex(options);
+
+const getData = () => {
+  P.getPokemonByName('charmander')
+  .then((res) => {
+    console.log(res)
+  })
+}
+  getData()
