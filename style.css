@@ -4,9 +4,9 @@
 }
 #title {
     border: 2px solid black;
-    background-color: gold;
+    background-color: yellow;
     padding: 30px;
-    width: 94.8%;
+    width: 95.7%;
     font-size: 50;
 }
 #search {
@@ -18,7 +18,7 @@ nav {
     border: 2px solid black;
     width: 99.7%;
     margin-top: 2px;
-    background-color: silver;
+    background-color: blue;
     font-size: 20;
 }
 #home {
@@ -28,4 +28,26 @@ nav {
 #random {
     text-decoration: none;
     padding-left: 35%;
+}
+
+@media screen and (max-width: 586px) {
+    #title {
+        padding-left: 15%;
+        background-color: gold;
+    }
+    #search {
+    position: absolute; 
+    margin-top: 30%;
+    margin-left: 38%;
+}
+    nav {
+    background-color: silver;
+}
+    #home {
+        color: black;
+    }
+
+    #random {
+        color: black;
+    }
 }
