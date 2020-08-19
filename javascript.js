@@ -1,11 +1,20 @@
-// const Pokedex = require('pokeapi-js-wrapper');
-
-// const P = new Pokedex.Pokedex(options);
+//387-493 for all sinnoh pokemon
 
 const getData = () => {
-  P.getPokemonByName('eevee')
+  axios.get('https://pokeapi.co/api/v2/pokemon/387')
   .then((res) => {
-    console.log(res)
+    const response = res.data.sprites.other
+    console.log(res.data.sprites.other)
+
+    // response.forEach((res) => {
+    //   console.log(res.data.sprites.other)
+      
+    //   const pictureDiv = document.querySelector('.pokemon')
+
+    //   const pokemonDiv = document.createElement('div')
+    //   pokemonDiv.classList = '.pokemon-div'
+    //   pictureDiv.append(pokemonDiv)
+  
   })
   .catch((error) => {
     console.log(`${error}`)
