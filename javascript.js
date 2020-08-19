@@ -1,4 +1,5 @@
-//387-493 for all sinnoh pokemon
+// 387-493 for all sinnoh pokemon
+// https://pokeapi.co/api/v2/pokemon/ditto
 
 const getData = () => {
   axios.get('https://pokeapi.co/api/v2/pokemon/387')
