@@ -1,8 +1,8 @@
-## Pokemon Database
+## Starter Pokemon Database
 
 ## Project Description
 
-Search and gather specific information about Pokemon from the Sinnoh Region.
+Search and gather specific information about the starter Pokemon (up to Sinnoh).
 
 ## API and Data Sample
 
@@ -36,8 +36,8 @@ Mobile:
 #### PostMVP
 
 - Add additional styling (i.e., animations)
-- Add randomize pokemon button/link
-- Add Pokemon from a different region
+- Make each starter clickable
+- Add the rest of the starters
 
 ## Project Schedule
 

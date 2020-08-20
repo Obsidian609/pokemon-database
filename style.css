@@ -24,30 +24,32 @@ nav {
 #home {
     text-decoration: none;
     padding-left: 25%;
+    color: black;
 }
-#random {
+#moreInfo {
     text-decoration: none;
     padding-left: 35%;
+    color: black;
 }
 
-@media screen and (max-width: 586px) {
+@media screen and (max-width: 671px) {
     #title {
         padding-left: 15%;
         background-color: gold;
     }
     #search {
-    position: absolute; 
-    margin-top: 30%;
-    margin-left: 38%;
+        position: absolute; 
+        margin-top: 30%;
+        margin-left: 38%;
 }
     nav {
-    background-color: silver;
+        background-color: silver;
 }
     #home {
         color: black;
     }
 
-    #random {
+    #moreInfo {
         color: black;
     }
 }
