@@ -8,11 +8,9 @@ Search and gather specific information about the starter Pokemon (up to Sinnoh).
 
 Using https://pokeapi.co/ as my source for relevant information.
 
-    "abilities": [
-        {
-            "ability": {
-                "name": "blaze",
-                "url": "https://pokeapi.co/api/v2/ability/66/"
+"flavor_text_entries": [
+    {
+        "flavor_text": "A strange seed was\nplanted on its\nback at birth.\fThe plant sprouts\nand grows with\nthis POKéMON."
 
 ## Wireframes
 
@@ -28,14 +26,13 @@ Mobile:
 
 - Find and use external api 
 - Render data on page 
-- Allow user to choose specfic Pokemon
-- Add images
+- Make each starter clickable
 - Add styling
 
 #### PostMVP
 
 - Add additional styling (i.e., animations)
-- Make each starter clickable
+- Add images to the information
 - Add the rest of the starters
 
 ## Project Schedule
@@ -57,13 +54,12 @@ Mobile:
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 4 hrs| 6 hrs | 6 hrs |
+| Adding Form | H | 6 hrs| 6 hrs | 6 hrs |
 | Working with API | H | 8 hrs| 12 hrs | 12 hrs |
 | Creating homepage | M | 4 hrs | 6 hrs | 6 hrs |
-| Adding each Pokemon | H | 8 hrs | 4 hrs | 4 hrs |
-| Adding images for each Pokemon | M | 8 hrs | 8 hrs | 8 hrs|
-| Styling | M | 2 hrs | 4 hrs | 4 hrs |
-| Total | H | 34 hrs| 40 hrs | 40 hrs |
+| Adding each starter | H | 8 hrs | 6 hrs | 6 hrs |
+| Styling | M | 6 hrs | 8 hrs | 8 hrs |
+| Total | H | 32 hrs| 38 hrs | 38 hrs |
 
 ## Code Snippet
 

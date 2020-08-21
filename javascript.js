@@ -1,7 +1,7 @@
+//Function to retrive API data
 function getPokeData(id) {
   axios.get(`https://pokeapi.co/api/v2/pokemon-species/${id}/`)
   .then((response) => {
-    console.log(response.data)
     const pokeData = response.data
     displayData(pokeData)
   })
@@ -10,6 +10,8 @@ console.log(error)
 })
 }
 
+//Function to create an element, store the choseninformation, 
+//and append it to the .pokeInfo div
 function displayData(pokeData) {
   const entry = document.createElement('h2')
   entry.innerHTML = 'Pokedex Entry:' + pokeData.id
@@ -18,13 +20,25 @@ function displayData(pokeData) {
 
   const name = document.createElement('h2')
   name.innerHTML = 'Name:' + pokeData.name
+  removeText()
   pokeInfo.append(name)
 
   const flavorText = document.createElement('h2')
   flavorText.innerHTML = pokeData.flavor_text_entries[0].flavor_text
   pokeInfo.append(flavorText)
+  pokeData.style.display = 'none'
 }
 
+//Function to remove previous entry when clicking another starter
+function removeText() { 
+  const oldText = document.querySelector('.pokeInfo')
+  while (oldText.lastChild) {
+    oldText.removeChild(oldText.lastChild)
+  }
+}
+
+//Hard coded 15 sprite images and appends to the .pokeId div;
+//each with a click event
 const bulbasaur = document.createElement('img')
   bulbasaur.src = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png'
   pokeId.append(bulbasaur)
@@ -67,7 +81,7 @@ const totodile = document.createElement('img')
     getPokeData(158)
   })
 
-let treecko = document.createElement('img')
+const treecko = document.createElement('img')
   treecko.src = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/252.png'
   pokeId.append(treecko)
   treecko.addEventListener('click', () => {
@@ -126,6 +140,6 @@ const tepig = document.createElement('img')
 const oshawatt = document.createElement('img')
   oshawatt.src = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/501.png'
   pokeId.append(oshawatt)
-  oshawatt.addEventListener('click', (e) => {
+  oshawatt.addEventListener('click', () => {
     getPokeData(501)
   })
