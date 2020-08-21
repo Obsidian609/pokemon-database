@@ -29,7 +29,6 @@ Mobile:
 - Find and use external api 
 - Render data on page 
 - Allow user to choose specfic Pokemon
-- Add functiong buttons/links
 - Add images
 - Add styling
 
@@ -45,10 +44,10 @@ Mobile:
 |---|---| ---|
 |August 14-16| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |August 17| Project Approval | Complete
-|August 18| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|August 19| Initial Clickable Model  | Incomplete
-|August 20| MVP | Incomplete
-|August 21| Presentations | Incomplete
+|August 18| Core Application Structure (HTML, CSS, etc.) | Complete
+|August 19| Initial Clickable Model  | Complete
+|August 20| MVP | Complete
+|August 21| Presentations | Complete
 
 ## Priority Matrix
 
@@ -58,14 +57,13 @@ Mobile:
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 4hrs| hrs | hrs |
-| Working with API | H | 4hrs| hrs | hrs |
-| Creating homepage | M | 4hrs | hrs | hrs |
-| Adding each Pokemon | H | 8hrs | hrs | hrs |
-| Adding images for each Pokemon | M | 8hrs | hrs | hrs|
-| Adding animation | L | 8hrs | hrs | hrs |
-| Styling | M | 2hrs | hrs | hrs |
-| Total | H | 38hrs| hrs | hrs |
+| Adding Form | H | 4 hrs| 6 hrs | 6 hrs |
+| Working with API | H | 8 hrs| 12 hrs | 12 hrs |
+| Creating homepage | M | 4 hrs | 6 hrs | 6 hrs |
+| Adding each Pokemon | H | 8 hrs | 4 hrs | 4 hrs |
+| Adding images for each Pokemon | M | 8 hrs | 8 hrs | 8 hrs|
+| Styling | M | 2 hrs | 4 hrs | 4 hrs |
+| Total | H | 34 hrs| 40 hrs | 40 hrs |
 
 ## Code Snippet
 

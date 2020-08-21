@@ -4,15 +4,9 @@
 }
 #title {
     border: 2px solid black;
-    background-color: yellow;
-    padding: 30px;
-    width: 95.7%;
+    background-color: red;
+    padding-left: 30%;
     font-size: 50;
-}
-#search {
-    float: right;
-    margin-top: 54px;
-    margin-right: 15px;
 }
 nav {
     border: 2px solid black;
@@ -24,17 +18,19 @@ nav {
 #home {
     text-decoration: none;
     padding-left: 25%;
-    color: black;
+    color: yellow;
 }
 #moreInfo {
     text-decoration: none;
     padding-left: 35%;
-    color: black;
+    color: rgb(34, 190, 34);
+}
+#pokeId {
+    flex-wrap: space-evenly;
 }
 
-@media screen and (max-width: 671px) {
+@media screen and (max-width: 512px) {
     #title {
-        padding-left: 15%;
         background-color: gold;
     }
     #search {
@@ -50,6 +46,7 @@ nav {
     }
 
     #moreInfo {
+        padding-left: 20%;
         color: black;
     }
 }
